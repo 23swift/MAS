@@ -1,0 +1,395 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"wid",
+				"width"
+			],
+			[
+				"font",
+				"font"
+			],
+			[
+				"font-s",
+				"font-style"
+			],
+			[
+				"fo",
+				"font-weight"
+			],
+			[
+				"fi",
+				"firstName"
+			],
+			[
+				"dis",
+				"disabled"
+			],
+			[
+				"pr",
+				"province"
+			],
+			[
+				"fa",
+				"false"
+			],
+			[
+				"first",
+				"first_name"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"pak",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"insa",
+				"Package Control: Install Package"
+			],
+			[
+				"g",
+				"Gulp: Kill running tasks"
+			],
+			[
+				"packa",
+				"Package Control: List Packages"
+			],
+			[
+				"syh",
+				"Set Syntax: HTML"
+			],
+			[
+				"gulp",
+				"Gulp"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: List Packages"
+			],
+			[
+				"gul",
+				"Set Syntax: Gulp results"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"gr",
+				"Gulp: Run arbitrary task"
+			],
+			[
+				"r",
+				"Rot13 Selection"
+			],
+			[
+				"gt",
+				"Gulp: Kill running tasks"
+			],
+			[
+				"gk",
+				"Gulp: Kill running tasks"
+			],
+			[
+				"gu",
+				"Gulp: Kill running tasks"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"gl",
+				"Gulp: Kill running tasks"
+			],
+			[
+				"bowe",
+				"Preferences: Browse Packages"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"bower",
+				"Bower: Install"
+			],
+			[
+				"bwer",
+				"Bower: Configure project"
+			],
+			[
+				"gulpr",
+				"Gulp: Run arbitrary task"
+			],
+			[
+				"guk",
+				"Gulp: Kill running tasks"
+			],
+			[
+				"gup",
+				"Gulp: Run arbitrary task"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"install package",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 530.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/Arnold/Documents/MAS/MAS.sublime-project",
+		"/Users/Arnold/Documents/MAS_X/src/app/components/navbar/navbar.html",
+		"/Users/Arnold/Documents/MAS_X/src/app/main/main.html",
+		"/Users/Arnold/Documents/MAS/gulpfile.js",
+		"/Users/Arnold/Documents/MAS/src/app/components/navbar/navbar.html",
+		"/Users/Arnold/Documents/MAS/src/app/main/main.html",
+		"/Users/Arnold/Documents/MAS/src/app/newAffiliation/newAffiliation.html",
+		"/Users/Arnold/Documents/MAS/src/app/newAffiliation/newAffiliation.controller.js",
+		"/Users/Arnold/Documents/MAS/src/app/index.scss",
+		"/Users/Arnold/Documents/MAS/src/index.html",
+		"/Users/Arnold/Documents/MAS/src/app/newAffiliation/dropDown.service.js",
+		"/Users/Arnold/Documents/MAS/src/app/newAffiliation/branchForm.service.js",
+		"/Users/Arnold/Documents/MAS/src/app/index.module.js",
+		"/Users/Arnold/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/Arnold/Documents/MAS/src/app/components/navbar/navbar.directive.js",
+		"/Users/Arnold/Documents/MAS/src/app/newAffiliation/province.service.js",
+		"/Users/Arnold/Documents/MAS/dist/index.html",
+		"/Users/Arnold/Documents/MAS/src/app/index.route.js",
+		"/Users/Arnold/Documents/MAS/src/app/index.run.js",
+		"/Users/Arnold/Documents/MAS/src/app/index.config.js",
+		"/Users/Arnold/Documents/MAS/src/app/main/main.controller.js",
+		"/Users/Arnold/Documents/MAS/.bowerrc",
+		"/Users/Arnold/Documents/MAS/bower.json",
+		"/Users/Arnold/Documents/MAS/karma.conf.js",
+		"/Users/Arnold/Documents/MAS/.tmp/partials/templateCacheHtml.js",
+		"/Users/Arnold/Documents/MAS/.tmp/serve/index.html",
+		"/Users/Arnold/Documents/MAS/dist/maps/scripts/app-603a474b8d.js.map",
+		"/Users/Arnold/Documents/MAS/dist/scripts/app-603a474b8d.js",
+		"/Users/Arnold/Documents/MAS/gulp/build.js",
+		"/Users/Arnold/Documents/MAS/src/app/about/about.controller.js",
+		"/Users/Arnold/Documents/MAS/src/app/index.constants.js",
+		"/Users/Arnold/Documents/MAS/src/app/main/main.controller.spec.js",
+		"/Users/Arnold/Documents/MAS/package.json",
+		"/Users/Arnold/Documents/MAS/app/newaffiliation/newAffiliation.controller.js",
+		"/Users/Arnold/Library/Application Support/Sublime Text 2/Packages/User/Gulp.sublime-settings",
+		"/Users/Arnold/Library/Application Support/Sublime Text 2/Packages/Gulp/Gulp.sublime-settings",
+		"/Users/Arnold/Documents/GulpAngular/gulpAngular.sublime-project",
+		"/Users/Arnold/Documents/sublimeProject/app/request",
+		"/Users/Arnold/Documents/sublimeProject/app/request/request.controller.js",
+		"/Users/Arnold/Documents/sublimeProject/app/app.js"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"gulpAngular"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"masApp"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.CSS Extended Completions":
+	{
+		"height": 0.0
+	},
+	"output.gulp_output":
+	{
+		"height": 231.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"main.htm",
+				"src/app/main/main.html"
+			],
+			[
+				"nav",
+				"src/app/components/navbar/navbar.html"
+			],
+			[
+				"index.",
+				"src/index.html"
+			],
+			[
+				"index.sc",
+				"src/app/index.scss"
+			],
+			[
+				"newaff",
+				"src/app/newAffiliation/newAffiliation.html"
+			],
+			[
+				"index",
+				"src/index.html"
+			],
+			[
+				"prov",
+				"src/app/newAffiliation/province.service.js"
+			],
+			[
+				"provin",
+				"src/app/newAffiliation/province.service.js"
+			],
+			[
+				"index.r",
+				"src/app/index.run.js"
+			],
+			[
+				"index.mod",
+				"src/app/index.module.js"
+			],
+			[
+				"provn",
+				"src/app/newAffiliation/province.service.js"
+			],
+			[
+				"index.rout",
+				"src/app/index.route.js"
+			],
+			[
+				"index.modu",
+				"src/app/index.module.js"
+			],
+			[
+				"index.rou",
+				"src/app/index.route.js"
+			],
+			[
+				"index.ro",
+				"src/app/index.route.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 262.0,
+	"status_bar_visible": true
+}

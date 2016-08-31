@@ -1,0 +1,181 @@
+<div class="container">
+  <h2>{{na.title}}</h2>
+  <hr/>
+  <div class="btn-group pull-right" role="group" style="margin-right:10px;">
+    <input type="button" value="Cancel" class="btn btn-xs btn-default" />
+    <input id="submitMerchant" type="button" value="Submit" class="btn btn-xs btn-primary" />
+  </div>
+  <uib-tabset active="active">
+    <uib-tab index="0" heading="Request Header">
+      <form name="na.requestHeaderFrm" ng-submit="na.onSubmit()">
+        <formly-form model="na.user" fields="na.requestHeaderfields" form="na.requestHeaderFrm">
+          <div class="panel panel-primary">
+            <!-- Default panel contents -->
+            <div class="panel-heading">Merchant Controll Code
+              <a class="pull-right" style="color:white" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#branchModal"><span class="glyphicon glyphicon-plus"></span> Add MCC</a>
+            </div>
+            <table class="table">
+              <thead>
+                <tr>
+                  <td>MCC</td>
+                  <td>
+                  </td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr ng-repeat="mcc in na.mccList">
+                  <td>{{mcc.MCC}}</td>
+                  <td>
+                    <table class="table">
+                      <thead>
+                        <tr>
+                          <td>Branch Number</td>
+                          <td>Branch Name</td>
+                          <td>Address
+                            <a class="pull-right" style="color:darkorange" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#branchModal"><span class="glyphicon glyphicon-plus"></span> Add Branches</a>
+                          </td>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr ng-repeat="branch in mcc.branches">
+                          <td>{{branch.branchNo}}</td>
+                          <td>{{branch.branchName}}</td>
+                          <td>{{branch.Address}}</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <!--<button type="submit" class="btn btn-primary" ng-disabled="na.requestHeaderFrm.$invalid">Save</button>-->
+          <div class="btn-group pull-right" role="group" style="margin-right:10px;">
+            <input type="button" value="Cancel" class="btn btn-xs btn-warning" data-dismiss="modal" />
+            <input id="submitMerchant" type="button" value="Save" class="btn btn-xs btn-primary" ng-disabled="na.requestHeaderFrm.$invalid" "/>
+        
+        
+      </div>
+    </formly-form>
+  </form>
+  </uib-tab>
+  <!--<uib-tab index="1 " heading="MIDS " disable="true ">-->
+  <uib-tab index="1 " heading="MIDS ">
+  <div class="panel panel-primary ">
+    <!-- Default panel contents -->
+    <div class="panel-heading ">Requested MIDs
+      <a class="pull-right " style="color:white " class="btn btn-primary btn-lg " data-toggle="modal " data-target="#branchModal
+              "><span class="glyphicon glyphicon-plus "></span> Add MID Reuest</a>
+    </div>
+    
+        
+      
+      
+      
+<table class="table ">
+<thead>
+  <tr>
+    <td>Currency</td>
+    <td>DBA Name</td>
+    <td>Monitor Code</td>
+    <td>Sub Monitor Code</td>
+    <td>MID Type</td>
+    <td>Card Plans</td>
+    <td>No. Of TIDs</td>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td><label for="">PHP <input type="checkbox"></label> <label for="">USD <input type="checkbox"></label> </td>
+    <td>SMDCXXXXXXXXXXXXX</td>
+    <td>OTC</td>
+    <td>Manual</td>
+    <td>   <div class="row">
+              <div class="col-sm-4">
+                  <label for=""><input type="checkbox"/> Straigth </label>
+                  <label for=""><input type="checkbox"/> Installment </label>
+                  <label for=""><input type="checkbox"/> 0% </label>
+
+              </div>
+              <div class="col-sm-4">
+                    <label for=""><input type="checkbox"/> BNPL</label>
+                    <label for=""><input type="checkbox"> 0% BNPL </label>
+              </div>
+          </div>
+            
+            
+            
+    </td>
+         <td>
+         <div class="row">
+              <div class="col-sm-3">
+                  <label for=""><input type="checkbox"/> MC </label>
+                  <label for=""><input type="checkbox"/> VC </label>
+                  <label for=""><input type="checkbox"/> JC </label>
+
+              </div>
+              <div class="col-sm-3">
+                    <label for=""><input type="checkbox"/> AC</label>
+                    <label for=""><input type="checkbox"> CC </label>
+                    <label for=""><input type="checkbox"> Pc </label>
+              </div>
+          </div>
+    </td>
+    <td>5</td>
+   
+  </tr>
+</tbody>
+</table>
+</div>
+</uib-tab>
+<uib-tab index="2 " heading="Details ">Details
+
+<!-- <div mas-list></div> -->
+</uib-tab>
+<uib-tab index="3 " heading="POS ">POS</uib-tab>
+<!--<uib-tab index="4 " select="alertMe() ">
+<uib-tab-heading>
+<i class="glyphicon glyphicon-bell "></i> Alert!
+</uib-tab-heading>
+I've got an HTML heading, and a select callback. Pretty cool!
+</uib-tab>-->
+</uib-tabset>
+</div>
+</div>
+<div class="modal fade " tabindex="-1 " role="dialog " id="branchModal">
+<div class="modal-dialog modal-lg " role="document ">
+<div class="modal-content ">
+<div class="modal-header ">
+<button type="button " class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+<div class="modal-title ">Add Branch</div>
+</div>
+<div class="modal-body ">
+<form name="na.branchFrm ">
+  <formly-form model="na.branchModel " fields="na.branchFields " form="na.branchFrm ">
+    <!-- <button type="submit " class="btn btn-primary " ng-disabled="na.branchFrm.$invalid ">Save</button> -->
+  </formly-form>
+</div>
+<div class="modal-footer ">
+  
+  <div class="btn-group pull-right" role="group" style="margin-right:10px;">
+    <input type="button" value="Cancel" class="btn btn-xs btn-default" data-dismiss="modal" />
+    <input id="submitMerchant" type="button" value="Submit" class="btn btn-xs btn-primary" ng-disabled="na.branchFrm.$invalid"/>
+    
+    
+  </div>
+</div>
+</form>
+</div>
+<!-- /.modal-content -->
+</div>
+<!-- /.modal-dialog -->
+</div>
+<!-- /.modal -->
+<script type="text/ng-template " id="formly-messages.html ">
+<formly-transclude></formly-transclude>
+<div  ng-messages="fc.$error " ng-if="fc.$touched ">
+<div class="text-danger " ng-message="{{::name}} " ng-repeat="(name, message) in ::options.validation.messages ">
+{{message(fc.$viewValue, fc.$modelValue, this)}}
+</div>
+</div>
+</script>

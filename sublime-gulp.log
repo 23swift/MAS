@@ -1,0 +1,8 @@
+Remember that you can report errors and get help in https://github.com/NicoSantangelo/sublime-gulp
+
+08-28-2016 10:06:
+(node:587) fs: re-evaluating native module sources is not supported. If you are using the graceful-fs module, please update it to a more recent version.
+
+
+08-28-2016 18:52:
+(node:706) fs: re-evaluating native module sources is not supported. If you are using the graceful-fs module, please update it to a more recent version.
